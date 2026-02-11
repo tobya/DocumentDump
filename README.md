@@ -52,7 +52,7 @@ php artisan vendor:publish --tag="documentdump-views"
 ## Usage
 
 ```php
-$documentDump = new tobya\DocumentDump();
+$documentDump = new Tobya\Documentdump();
 echo $documentDump->echoPhrase('Hello, tobya!');
 ```
 

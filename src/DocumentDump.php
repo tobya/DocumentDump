@@ -1,6 +1,6 @@
 <?php
 
-namespace tobya\DocumentDump;
+namespace Tobya\Documentdump;
 
 use Tobya\Docto\CLITool;
 

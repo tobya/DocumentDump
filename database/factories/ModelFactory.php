@@ -1,6 +1,6 @@
 <?php
 
-namespace tobya\DocumentDump\Database\Factories;
+namespace Tobya\Documentdump\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

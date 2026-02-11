@@ -1,10 +1,10 @@
 <?php
 
-namespace tobya\DocumentDump\Tests;
+namespace Tobya\Documentdump\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use tobya\DocumentDump\DocumentDumpServiceProvider;
+use Tobya\Documentdump\DocumentDumpServiceProvider;
 
 class TestCase extends Orchestra
 {
