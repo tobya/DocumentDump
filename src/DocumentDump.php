@@ -23,6 +23,15 @@ class Documentdump extends CLITool {
         return $this->Parameter('-O',$value);
     }
 
+    public function connectionString($connString = null):Documentdump
+    {
+        if (is_null($connString)) {
+            $connString = config('documentdump.connection_string');
+        }
+        
+        return $this->Parameter('-C',$connString);
+    }
+
     public function getEXEPath()
     {
         return config('documentdump.path');

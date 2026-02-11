@@ -6,5 +6,7 @@ return [
     /**
      * path to exe
      */
-    'path' => env('BCSDumpRec_PATH', ''),
+    'path' => env('BCSDUMPREC_PATH', ''),
+
+    'connection_string' => env('BCSDUMPREC_CONNECTION_STRING', ''),
 ];
