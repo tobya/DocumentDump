@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "tobya\\Documentdump\\": "src/"
+            "Tobya\\Documentdump\\": "src/"
 
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "tobya\\DocumentDump\\Tests\\": "tests/",
+            "Tobya\\Documentdump\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "tobya\\DocumentDump\\DocumentDumpServiceProvider"
+                "Tobya\\Documentdump\\DocumentDumpServiceProvider"
             ],
             "aliases": {
-                "DocumentDump": "tobya\\DocumentDump\\Facades\\DocumentDump"
+                "DocumentDump": "Tobya\\Documentdump\\Facades\\DocumentDump"
             }
         }
     },
