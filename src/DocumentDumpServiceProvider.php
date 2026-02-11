@@ -4,7 +4,7 @@ namespace Tobya\Documentdump;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tobya\Documentdump\Commands\DocumentDumpCommand;
+
 
 class DocumentDumpServiceProvider extends PackageServiceProvider
 {

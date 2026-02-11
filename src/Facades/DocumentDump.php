@@ -1,16 +1,16 @@
 <?php
 
-namespace Tobya\Documentdump\Facades;
+namespace tobya\DocumentDump\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Tobya\Documentdump\DocumentDump
+ * @see \tobya\DocumentDump\DocumentDump
  */
 class DocumentDump extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Tobya\Documentdump\DocumentDump::class;
+        return \tobya\DocumentDump\DocumentDump::class;
     }
 }

@@ -4,7 +4,7 @@ namespace Tobya\Documentdump;
 
 use Tobya\Docto\CLITool;
 
-class DocumentDump extends CLITool {
+class Documentdump extends CLITool {
 
 
 

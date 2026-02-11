@@ -31,8 +31,8 @@
     },
     "autoload": {
         "psr-4": {
-            "tobya\\DocumentDump\\": "src/",
-            "tobya\\DocumentDump\\Database\\Factories\\": "database/factories/"
+            "tobya\\Documentdump\\": "src/",
+
         }
     },
     "autoload-dev": {
